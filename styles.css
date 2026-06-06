@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0d0d0d;
+    color: #e6e6e6;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.name {
+    font-size: 3rem;
+    margin-bottom: 0.3rem;
+}
+
+.role {
+    font-size: 1.2rem;
+    color: #999;
+    margin-bottom: 1.5rem;
+}
+
+.tagline {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #ccc;
+}
+
+.links a {
+    color: #00aaff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    transition: 0.2s;
+}
+
+.links a:hover {
+    color: #66cfff;
+}
